@@ -15,6 +15,7 @@ const routes: Routes = [
   {path: 'experience', component: ExperienceComponent},
   {path: 'education', component: EducationComponent},
   {path: 'live', component: LiveComponent},
+  {path: '404', redirectTo: 'home', pathMatch: 'full'},
   {path: '', redirectTo: 'home', pathMatch: 'full'},
   {path: '**', redirectTo: 'home'}
 ];
