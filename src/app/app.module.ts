@@ -9,6 +9,7 @@ import { CertificationsComponent } from './certifications/certifications.compone
 import { ExperienceComponent } from './experience/experience.component';
 import { EducationComponent } from './education/education.component';
 import { LiveComponent } from './live/live.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LiveComponent } from './live/live.component';
     CertificationsComponent,
     ExperienceComponent,
     EducationComponent,
-    LiveComponent
+    LiveComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
