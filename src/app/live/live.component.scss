@@ -1,0 +1,47 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 70vh;
+
+    .item {
+        display: flex;
+        justify-content: center;
+
+        width: 500px;
+        height: 50px;
+        border-radius: 5px;
+        margin-top: 5vh;
+
+        p {
+            outline: none;
+            margin-left: 45%;
+            margin-right: auto;
+        }
+    }
+
+    #github {
+
+        background-color: #193341;
+        
+        img {
+            width: 10%;
+            margin-right: 15px;
+        }
+
+        p {
+            color: #FCFFF5;
+        }
+    }
+
+    #news {
+        background-color: #DDDDDD;
+
+        p {
+            color: black;
+            margin-left: 30%;
+        }
+    }
+}
