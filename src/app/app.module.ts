@@ -11,6 +11,8 @@ import { EducationComponent } from './education/education.component';
 import { LiveComponent } from './live/live.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
+import { LocationStrategy, HashLocationStrategy} from '@angular/common';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +28,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
